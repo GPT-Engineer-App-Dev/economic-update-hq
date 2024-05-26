@@ -2,7 +2,7 @@ import { Box, Container, Flex, Text, VStack } from "@chakra-ui/react";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#fff1e5">
       <Flex direction={{ base: "column", md: "row" }} justify="space-between">
         <Box flex="3" p={4}>
           <Text fontSize="2xl" fontWeight="bold">Top News Stories</Text>
@@ -17,7 +17,7 @@ const Index = () => {
             </Box>
           </VStack>
         </Box>
-        <Box flex="1" p={4} bg="gray.50" ml={{ md: 4 }} mt={{ base: 4, md: 0 }}>
+        <Box flex="1" p={4} bg="#fff1e5" ml={{ md: 4 }} mt={{ base: 4, md: 0 }}>
           <Text fontSize="xl" fontWeight="bold">Market Data</Text>
           <VStack spacing={4} mt={4}>
             <Box p={4} shadow="md" borderWidth="1px">
